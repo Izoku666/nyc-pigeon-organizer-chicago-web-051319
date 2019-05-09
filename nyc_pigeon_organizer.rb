@@ -32,7 +32,7 @@ def nyc_pigeon_organizer(data)
       end
       
       pidgeons.each do |i|
-        puts" giving #{i} the option #{infoKey} (which is #{option})
+        puts" giving #{i} the option #{infoKey} (which is #{option})"
       end
     end
     
