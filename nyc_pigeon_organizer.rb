@@ -30,13 +30,6 @@ def nyc_pigeon_organizer(data)
         res[i] = {}
         puts res
       end
-      
-      pidgeons/each do |i|
-        puts"giving #{i} the var: #{infoKey} (which is #{option})"
-        
-        res[i][infoKey] = []
-        res[i][infoKey] << option
-      end   
     end
     
   end
