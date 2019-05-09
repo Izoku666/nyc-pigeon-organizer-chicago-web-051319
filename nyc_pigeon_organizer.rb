@@ -33,6 +33,7 @@ def nyc_pigeon_organizer(data)
     end
     
     infoOptions.each do|option , pidgeon|
+    end
   end
   
   
