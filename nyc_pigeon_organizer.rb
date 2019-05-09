@@ -33,6 +33,7 @@ def nyc_pigeon_organizer(data)
       
       pidgeons.each do |i|
         puts" giving #{i} the option #{infoKey} (which is #{option})"
+        res[i][infoKey] = []
       end
     end
     
