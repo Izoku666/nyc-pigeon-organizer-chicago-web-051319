@@ -29,7 +29,7 @@ def nyc_pigeon_organizer(data)
       
       pidgeons.each do |i|
         puts"listing pidgeons #{i}"
-        res[i] = i
+        res[i] = 
       end
     end
   end
