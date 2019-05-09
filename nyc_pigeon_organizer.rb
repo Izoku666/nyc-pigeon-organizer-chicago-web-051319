@@ -24,18 +24,26 @@ def nyc_pigeon_organizer(data)
   res = {}
   data.each do |infoKey , infoOptions|
     
-  # This will setup the new hash structure
+  # This will setup the new hash structure with pidgeon names
     infoOptions.each do |option , pidgeon|
       pidgeon.each do |i|  # creates a new hash key for every pidgeon
         res[i] = {}
         puts res
       end
     end
+    
+  #this will setup the arrays inside of each of the pidgeon keys
+    infoOptions.each do|option , pidgeon|
+    pidgeon.each do |i|
+      res[i][infoKey] = []
+    end
+    
+  #this will fill the arrays insidfe of each of the pidgeon keys
+  
+      
   end
   
-  res.each do |pidgeon_name , info|
-        
-  end
+
   
   
   puts "Result:   #{res}"
