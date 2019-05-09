@@ -27,8 +27,10 @@ def nyc_pigeon_organizer(data)
   # This will setup the new hash structure with pidgeon names
     infoOptions.each do |option , pidgeon|
       pidgeon.each do |i|  # creates a new hash key for every pidgeon
-        res[i] = {}
-        puts res
+        if !res.include?(i)
+          res[i] = {}
+          puts res
+        end
       end
     end
     
