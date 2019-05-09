@@ -27,7 +27,7 @@ def nyc_pigeon_organizer(data)
     # This will setup the new hash structure
     infoOptions.each do |option , pidgeons|
       pidgeons.each do |i|
-        puts"giving #{i} the var: #{infoKey} (which is #{option})"
+        #puts"giving #{i} the var: #{infoKey} (which is #{option})"
         res[i] = {}
         puts res
       end
