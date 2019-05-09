@@ -34,7 +34,7 @@ def nyc_pigeon_organizer(data)
     end
   end
   
-  puts "Result:   #{Result}"
+  puts "Result:   #{res}"
 end
 
 
