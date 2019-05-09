@@ -44,7 +44,14 @@ def nyc_pigeon_organizer(data)
   
   # loop through the data hash again in order to get the data STDOUT
   res.each do |pidgeon_name , pidgeon_data|
-    data.each do |infoKey , infoVal|
+    data.each do |infoKey , infoOptions|
+      infoOptions.each do |option , pidgeon_orig|
+        if pidgeon_name == pidgeon_orig
+          puts "Adding Data!"
+        end
+      end
+    end
+  end
   end
 
   
