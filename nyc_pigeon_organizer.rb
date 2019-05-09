@@ -10,3 +10,5 @@ def nyc_pigeon_organizer(data)
   end
   return res
 end
+
+puts nyc_pigeon_organizer
