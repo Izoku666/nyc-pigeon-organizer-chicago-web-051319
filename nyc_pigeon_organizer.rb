@@ -51,7 +51,7 @@ def nyc_pigeon_organizer(data)
             if i == pidgeon_name
               puts "Adding Data!"
             end
-          
+          res[i][infoKey] = option
         end
       end
     end
