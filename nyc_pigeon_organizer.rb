@@ -35,7 +35,7 @@ def nyc_pigeon_organizer(data)
     
     # this will fill the new has structure with the data
     res.each do |pidgeon , dataKey|
-      
+    end
     
   end
   
