@@ -9,6 +9,9 @@ def nyc_pigeon_organizer(data)
     end
   end
   
-  puts res
+  res.each do |k , v|
+    puts k
+  end
   return res
 end
+
