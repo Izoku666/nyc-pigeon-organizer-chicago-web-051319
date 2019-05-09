@@ -41,7 +41,7 @@ def nyc_pigeon_organizer(data)
       end
       
       pidgeon.each do|i|
-        res[i][infoKey] << option.to_s
+        res[i][infoKey] << option
       end
     end
   end
