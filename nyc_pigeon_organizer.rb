@@ -46,6 +46,7 @@ def nyc_pigeon_organizer(data)
   res.each do |pidgeon_name , pidgeon_data|
     data.each do |infoKey , infoOptions|
       infoOptions.each do |option , pidgeon_orig|
+        puts "Almost there!"
         if pidgeon_name == pidgeon_orig
           puts "Adding Data!"
         end
