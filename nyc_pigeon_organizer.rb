@@ -47,8 +47,11 @@ def nyc_pigeon_organizer(data)
     data.each do |infoKey , infoOptions|
       infoOptions.each do |option , pidgeon_orig|
         puts "#{option} ,  #{pidgeon_orig}"
-        if pidgeon_name == pidgeon_orig
-          puts "Adding Data!"
+          pidgeon_orig.each do |i|
+            if i == pidgeon_name
+              puts "Adding Data!"
+            end
+          end
         end
       end
     end
