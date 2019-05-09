@@ -30,7 +30,7 @@ def nyc_pigeon_organizer(data)
       pidgeons.each do |i|
         puts"listing pidgeons #{i}"
         res[i] = infoKey.to_s
-        res[i][infoKey] = option
+        res[i][infoKey.to_s] = option
       end
     end
   end
