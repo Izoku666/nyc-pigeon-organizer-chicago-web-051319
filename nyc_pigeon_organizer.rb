@@ -22,7 +22,7 @@ def nyc_pigeon_organizer(data)
   #puts data
   
   data.each do |infoKey , infoOptions|
-    puts infoOptions
+    puts infoKey
   end
 end
 
