@@ -29,12 +29,13 @@ def nyc_pigeon_organizer(data)
       pidgeons.each do |i|
         puts"giving #{i} the var: #{infoKey} (which is #{option})"
         res[i] = {}
-        res[i][infoKey] = option
         puts res
       end
     end
     
     # this will fill the new has structure with the data
+    res.each do |pidgeon , dataKey|
+      
     
   end
   
