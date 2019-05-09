@@ -35,7 +35,7 @@ def nyc_pigeon_organizer(data)
       end
     end
     
-    
+    # this will fill the new has structure with the data
     
   end
   
