@@ -34,14 +34,13 @@ def nyc_pigeon_organizer(data)
     
   #this will setup the arrays inside of each of the pidgeon keys
     infoOptions.each do|option , pidgeon|
-    pidgeon.each do |i|
+      pidgeon.each do |i|
       res[i][infoKey] = []
     end
+  end
+
     
   #this will fill the arrays insidfe of each of the pidgeon keys
-  
-      
-  end
   
 
   
