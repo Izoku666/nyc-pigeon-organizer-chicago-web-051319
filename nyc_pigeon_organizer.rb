@@ -32,11 +32,11 @@ def nyc_pigeon_organizer(data)
       pidgeons.each do |i|
         puts"listing pidgeons #{i}"
         res[i] = {}
+        res[i][infoKey] = option
       end
     end
     
     # this will fill the new has structure with the data
-    
     
   end
   
