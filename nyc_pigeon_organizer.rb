@@ -25,21 +25,16 @@ def nyc_pigeon_organizer(data)
   data.each do |infoKey , infoOptions|
     
   # This will setup the new hash structure
-    infoOptions.each do |option , pidgeons|
-      pidgeons.each do |i|  # creates a new hash key for every pidgeon
+    infoOptions.each do |option , pidgeon|
+      pidgeon.each do |i|  # creates a new hash key for every pidgeon
         res[i] = {}
         puts res
       end
-      
-      pidgeons.each do |i|
-        puts" giving #{i} the option #{infoKey} (which is #{option})"
-        res[i][infoKey] = []
-        res[i][infoKey] << option
-      end
     end
     
-    
+    infoOptions.each do|option , pidgeon|
   end
+  
   
   puts "Result:   #{res}"
   return res
