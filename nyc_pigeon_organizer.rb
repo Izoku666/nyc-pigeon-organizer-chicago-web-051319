@@ -40,7 +40,9 @@ def nyc_pigeon_organizer(data)
         res[i][infoKey] = []
       end
       
-
+      pidgeon.each do|i|
+        res[i][infoKey] << option
+      end
     end
   end
 
