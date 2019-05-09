@@ -3,7 +3,7 @@ def nyc_pigeon_organizer(data)
   res = {}
   data.each do |info , infoVal|
     infoVal.each do |infoData , name_arr|
-      puts name_arr
+      res[name_arr]
     end
   end
   
