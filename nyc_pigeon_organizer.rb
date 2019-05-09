@@ -7,5 +7,6 @@ def nyc_pigeon_organizer(data)
     end
   end
   
+  puts res
   return res
 end
