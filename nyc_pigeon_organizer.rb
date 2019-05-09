@@ -31,9 +31,10 @@ def nyc_pigeon_organizer(data)
         puts res
       end
     end
-    
-    infoOptions.each do|option , pidgeon|
-    end
+  end
+  
+  res.each do |pidgeon_name , info|
+        
   end
   
   
