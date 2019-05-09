@@ -52,7 +52,7 @@ def nyc_pigeon_organizer(data)
           pidgeon_orig.each do |i|
             if i == pidgeon_name
               puts "Adding Data!"
-              res[i][infoKey] = option
+              res[i][infoKey] << option
             end
 
         end
