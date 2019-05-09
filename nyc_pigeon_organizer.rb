@@ -29,7 +29,7 @@ def nyc_pigeon_organizer(data)
       pidgeon.each do |i|  # creates a new hash key for every pidgeon
         if !res.include?(i)
           res[i] = {}
-          puts res
+          #puts res
         end
       end
     end
@@ -42,6 +42,7 @@ def nyc_pigeon_organizer(data)
       
       pidgeon.each do|i|
         res[i][infoKey] << option
+        puts res
       end
     end
   end
