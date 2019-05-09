@@ -33,7 +33,6 @@ def nyc_pigeon_organizer(data)
         puts"giving #{i} the var: #{infoKey}"
         res[i] = {}
         res[i][infoKey] = []
-        res[i][infoKey] << option
       end
     end
     
