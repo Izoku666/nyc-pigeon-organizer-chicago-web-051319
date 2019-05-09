@@ -39,12 +39,12 @@ def nyc_pigeon_organizer(data)
       pidgeon.each do |i|
         res[i][infoKey] = []
       end
-      
-      pidgeon.each do|i|
-        res[i][infoKey] << option
-        puts res
-      end
     end
+  end
+  
+  # loop through the data hash again in order to get the data STDOUT
+  res.each do |pidgeon_name , pidgeon_data|
+    data.each do |infoKey , infoVal|
   end
 
   
