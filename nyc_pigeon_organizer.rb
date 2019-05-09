@@ -25,6 +25,10 @@ def nyc_pigeon_organizer(data)
     puts "#{infoKey} is the key"
     infoOptions.each do |option , pidgeons|
       puts "#{pidgeons} has #{option} as ' #{infoKey} ' "
+      
+      pidgeons.each do |i|
+        puts"listing pidgeons #{pidgeons}"
+      end
     end
   end
   
