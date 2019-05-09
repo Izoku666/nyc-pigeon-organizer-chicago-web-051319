@@ -25,14 +25,12 @@ def nyc_pigeon_organizer(data)
   data.each do |infoKey , infoOptions|
     
     # This will setup the new hash structure
-   # puts "#{infoKey} is the key"
+   
     infoOptions.each do |option , pidgeons|
-      #puts "#{pidgeons} has #{option} as ' #{infoKey} ' "
       
       pidgeons.each do |i|
         puts"giving #{i} the var: #{infoKey}"
         res[i] = {}
-        res[i][infoKey] = []
       end
     end
     
