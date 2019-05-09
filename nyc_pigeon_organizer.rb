@@ -28,7 +28,7 @@ def nyc_pigeon_organizer(data)
     infoOptions.each do |option , pidgeons|
       pidgeons.each do |i|
         res[i] = {}
-        #puts res
+        puts res
       end
       
       pidgeons/each do |i|
