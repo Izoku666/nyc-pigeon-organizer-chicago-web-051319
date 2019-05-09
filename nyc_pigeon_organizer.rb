@@ -39,7 +39,7 @@ def nyc_pigeon_organizer(data)
     end
   end
 
-    
+end
   #this will fill the arrays insidfe of each of the pidgeon keys
   
 
