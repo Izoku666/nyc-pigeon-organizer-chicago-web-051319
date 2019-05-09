@@ -19,7 +19,11 @@ pigeon_data = {
 
 def nyc_pigeon_organizer(data)
   # write your code here!
-  puts data
+  #puts data
+  
+  data.each do |infoKey , infoOptions|
+    puts infoOptions
+  end
 end
 
 
